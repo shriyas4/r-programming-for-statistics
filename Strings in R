@@ -1,0 +1,20 @@
+#strings
+#initiation of strings
+str1 <- "Hi, Welcome to my GitHub! "
+str2 <- "Hope you enjoy learning R from here!"
+
+#concatenation of strings
+str3 <- paste(str1,str2)
+print(str3)
+
+#convert to upper case
+str4 = toupper(str1)
+print(str4)
+
+#convert to lower case
+str5 = tolower(str2)
+print(str5)
+
+#extracting a part of the string
+str6 = substr(str3,5,16)
+print(str6)
