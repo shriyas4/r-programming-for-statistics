@@ -13,3 +13,10 @@ data2 <- read.table(file.choose(), header=T, sep="\t")
 data2
 
 #you can use a csv file and a txt file you want. However, if you wish to use the same data I did, kindly refer to the READme file. 
+
+#to import an .xlsx file 
+library(readxl)
+Scores_R_programming <- read_excel("C:/Users/91963/Downloads/Scores - R programming.xlsx")
+View(Scores_R_programming)
+#the exact same code would not work for you as I have used a locally saved file. Kindly use the data to save the file as .xlsx file and find its path.
+
