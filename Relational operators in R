@@ -1,0 +1,21 @@
+#relational operators
+vtr4 = c(234)
+vtr5 = c(444)
+
+#equal to
+print(vtr4 == vtr5)
+
+#not equal to
+print(vtr4 != vtr5)
+
+#greater than
+print(vtr4>vtr5)
+
+#less than
+print(vtr4<vtr5)
+
+#greater than equal to
+print(vtr4>=vtr5)
+
+#less than equal to
+print(vtr4<=vtr5)
