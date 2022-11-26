@@ -1,0 +1,37 @@
+#conditional statements
+#if statement
+vtr3 = c(TRUE)
+vtr4 = c(FALSE)
+
+if (!vtr3 == vtr4){
+  print("Welcome to R programming")
+}
+
+#else if statement
+if (vtr3 == vtr4){
+  print("They are equal")
+}else if (vtr3 != vtr4){
+  print("They are not equal")
+}
+# multiple else if can be inserted 
+
+#else statement
+vtr5 = 600
+vtr6 = 200
+if ((vtr5 +vtr6)>1000){
+  print("The number is greater than 1000")
+} else if ((vtr5-vtr6)>500){
+  print("The number is greater than 500")
+} else{
+  print(vtr5+vtr6)
+}
+
+#switch case statement
+switch(4,
+       '1'=print("Monday"),
+       '2'=print("Tuesday"),
+       '3'=print("Wednesday"),
+       '4'=print("Thursday"),
+       '5'=print("Friday"),
+       '6'=print("Saturday"),
+       '7'=print("Sunday"))
