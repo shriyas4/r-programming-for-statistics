@@ -1,1 +1,15 @@
+#To read a CSV file
+help(read.csv)
+?read.csv
+data <-read.csv(file.choose(), header=T)
+data
+data1 <- read.table(file.choose(), header = T, sep=",")
+data1
 
+#To read a .txt file
+data3 <- read.delim(file.choose(), header =T)
+data3
+data2 <- read.table(file.choose(), header=T, sep="\t")
+data2
+
+#you can use a csv file and a txt file you want. However, if you wish to use the same data I did, kindly refer to the READme file. 
