@@ -1,0 +1,22 @@
+#loops in R
+#repeat loop
+var7 = 5
+repeat{
+  print(var7)
+  var7 = var7 + 2
+  if (var7 > 21){
+    break
+  }
+}
+
+#while loop
+var8 = 20
+while (var8 < 30){
+  print(var8)
+  var8 = var8 + 1
+}
+
+#for loop
+for (x in 1:20){
+  print(x)
+}
