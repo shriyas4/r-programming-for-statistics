@@ -1,0 +1,9 @@
+#assignment operators
+#equal to
+vtr7 = c(200)
+
+#left assign
+vtr8 <- c(250)
+
+#right assign
+c(300) -> vtr9
