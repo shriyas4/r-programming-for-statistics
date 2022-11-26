@@ -35,3 +35,16 @@ vtr7 = c(200)
 vtr8 <- c(250)
 #right assign
 c(300) -> vtr9
+#logical operators
+vtr1 = c(TRUE, FALSE, TRUE, FALSE)
+vtr2 = c(FALSE, TRUE, FALSE, TRUE)
+#and operator
+print(vtr1 & vtr2)
+#or operator
+print(vtr1 | vtr2)
+#logical or
+print(vtr1 || vtr2)
+#logical and
+print(vtr1 && vtr2)
+#not operator
+print(!vtr1)
